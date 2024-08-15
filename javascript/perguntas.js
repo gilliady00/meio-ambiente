@@ -1,96 +1,108 @@
 export const perguntas = [
     {
-        enunciado: "O que você acha sobre a saúde ambiental na sua cidade?",
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "minha cidade se preocupa muito com as ambientação.",
+                texto: "Isso é assustador!",
                 afirmacao: [
-                    "A saúde ambiental é uma área de estudo que se preocupa com a avaliação e o controle dos impactos dos seres humanos sobre a natureza.",
-                
+                    "No início ficou com medo do que essa tecnologia pode fazer.",
+                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
                 ],
                 proxima: 1,
             },
             {
-                texto: "minha cidade não se importa com a saúde ambiental.",
+                texto: "Isso é maravilhoso!",
                 afirmacao: [
-                    "A maior parte dos munucípios brasileiros enfrenta grandes problemas ambientais.",
-        
+                    "Quis saber como usar IA no seu dia a dia.",
+                    "Pensou que IA pode ajudar em tarefas da sua vida."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Você acha que a sua cidade pode ter de melhorias para evitar problemas ambientais futuros?",
+        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "minha cidade não precisa de melhorias",
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
                 afirmacao: [
-                    "Um ambiente saudável é vital para garantir uma vida saudável e promover o bem-estar de todos."
+                    "Conseguiu utilizar a IA para buscar informações úteis.",
+                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
+                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
                 ],
                 proxima: 3,
             },
             {
-                texto: "minha cidade precisa de grandes melhorias com os cuidados ambientais",
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: [
-                    "Entre eles, os principais estão em queimadas, desmatamento e o assoreamento de rios."
+                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
+                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
+                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Você acha que o ambiente afeta o bem-estar das pessoas?",
+        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Sim. um lugar limpo pode ocasionar uma boa saúde.",
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
                 afirmacao: [
-                    "A interação entre o meio ambiente e a saúde pública aborda aspectos que influenciam o bem-estar e inclui fatores físicos, químicos e biológicos."
+                    "Conseguiu utilizar a IA para buscar informações úteis.",
+                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
+                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Não, acho que o ambiente não afeta a saúde.",
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: [
-                    "Alguns problemas como, poluição atmosférica, poluição das águas, queimas e desmatamentos podem afetar de diversas maneiras a saúde do ser humano."
+                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
+                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
+                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "você faria trabalho voluntário para ajudar sua cidade?",
+        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
         alternativas: [
             {
-                texto: "Sim, eu gostaria de ajudar a minha cidade para ver resultados no meio ambiente.",
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao: [
-                    "A exposição a produtos tóxicos pode levar a distúrbios de saúde crônicos e muitas vezes, irreversíveis, como problemas congênitos e doençãs associadas à desregulação endócrina."
+                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
+                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Não. eu acho que isso deve vir de um orgão maior, e não preciso ajudar para isso.",
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
                 afirmacao: [
-                    "Para podermos ajudar nos problemas ambientais devemos fazer primeiramente o básico. reciclar e reutilizar, evitar produtos descartáveis como copos descartáveis, canudos, etc."
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
+                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Na sua residência há cuidados com a separação de produtos recicláveis?",
+        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
         alternativas: [
             {
-                texto: "Sim, nós separamos oa lixos e reutilizamos produtos que podem ser reciclados.",
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao: [
-                    "Um ambiente saudável e limpo é vital para garantir uma vida saudável e promover o bem-estar para todos."
+                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
+                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Na minha casa não há reciclagens e não nos importamos com reutilização de objetos.",
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
                 afirmacao: [
-                    "Ambientes mais saudáveis poderiam evitar grandes problemas de saúde e doenças."
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
+                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
                 proxima: 6,
             },
